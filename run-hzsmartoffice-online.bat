@@ -1,3 +1,3 @@
 @echo off
 echo 🔄 正在從 GitHub 下載 HZ-SmartOffice.ps1...
-powershell -NoExit -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://github.com/showrenlee/HZ-SmartOffice/blob/main/HZ-SmartOffice.ps1' -OutFile $env:TEMP\HZ-SmartOffice.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\HZ-SmartOffice.ps1"
+powershell -NoExit -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/showrenlee/HZ-SmartOffice/main/HZ-SmartOffice.ps1' -OutFile $env:TEMP\\HZ-SmartOffice.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\\HZ-SmartOffice.ps1"
